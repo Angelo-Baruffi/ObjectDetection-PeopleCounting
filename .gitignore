@@ -7,6 +7,7 @@
 *.pbtxt
 mAP/Modelos*Testados
 Object-detection/model/
+Object-detection/log/
 .ipynb_checkpoints/
 mAP/.ipynb_checkpoints
 Object-detection/outputs/
