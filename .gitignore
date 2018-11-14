@@ -1,0 +1,17 @@
+*.mp4
+*.png
+*.jpg
+*.txt
+*.avi
+*.pb
+*.pbtxt
+"mAP/Modelos Testados"
+"Object-detection/model/"
+".ipynb_checkpoints/"
+"mAP/.ipynb_checkpoints"
+"Object-detection/outputs/"
+"Object-detection/inputs/"
+"mAP/images/"
+"/.vscode"
+"mAP/results/images/"
+"Visual Analysis/output/"
