@@ -14,7 +14,17 @@ https://github.com/Cartucho/mAP
 - Get the mAP from a video with ground truth
 - Save the results and analyze it using jupyter notebook
 
-# Suggestion to calculate mAP and test the models
+# Outputs
+<center>Get the models results</center>
+<img src="table_results.png">
+
+<center>Plot errors</center>
+<img src="FPS_erro.png">
+
+<center>Plot and filter:</center>
+<img src="filter_ppn.png">
+
+### Suggestion to calculate mAP and test the models
 I used the MOT challange dataset to get a video with the groud truth data. [Link to dataset](https://motchallenge.net/)
 
 I used this [video](https://motchallenge.net/vis/PETS09-S2L1)
@@ -54,7 +64,7 @@ All parameters for main.py you can see in the [original repository](https://gith
 
 ## Changing Models
 The weights and configurations are saved into 'Object-detection/model' using <strong>.pb</strong> format.
-You can easily download many models from the [model zoo]() created by Tensorflow. 
+You can easily download many models from the [model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) created by Tensorflow. 
 
 Download the model and copy the  <strong>.pb</strong> file into the models path. That's it.
 
@@ -68,6 +78,8 @@ To save models results and compare, save the files from mAP in a path like:
 The files(folders) to save are:
 - results
 - predicted
+
+<strong>See the Analysis</strong> - [Link](VisualAnalysis/Analysis.ipynb)
 
 ## Future works to add
 
