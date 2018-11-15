@@ -69,18 +69,18 @@ def video_to_images(input_file, output_file, name_class):
 
 output_file = 'image_'
 
-path_imput = ''
-input_file = path_imput + 'MOC.txt'
+path_input = ''
+input_file = path_input + 'MOC.txt'
 
-#transformGroundTruth(input_file, output_file, name_class)
+transformGroundTruth(input_file, output_file, name_class)
 
 print('Finished - GROUNT TRUTH')
 #----------------------------PREDICTION-------------------------------
 
 output_file = 'image_'
 
-path_imput = '../Object-detection/outputs/'
-input_file = path_imput + 'output.csv'
+path_input = '../Object-detection/outputs/'
+input_file = path_input + 'output.csv'
 
 transformPredicted(input_file, output_file, name_class)
 
@@ -90,9 +90,9 @@ print('Finished - PREDICTION')
 
 output_file = 'image_'
 
-path_imput = '../Object-detection/inputs/'
-input_file = path_imput + 'MOC.mp4'
+path_input = '../Object-detection/inputs/'
+input_file = path_input + 'MOC.mp4'
 
-#video_to_images(input_file, output_file, name_class)
+video_to_images(input_file, output_file, name_class)
 
 print('Finished - GET IMAGES')
