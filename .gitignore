@@ -16,3 +16,7 @@ mAP/images/
 /.vscode
 mAP/results/images/
 Visual Analysis/output/
+
+!filter_ppn.png
+!FPS_erro.png
+!table_results.png
