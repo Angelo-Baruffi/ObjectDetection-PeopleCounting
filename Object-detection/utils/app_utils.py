@@ -3,7 +3,7 @@ from threading import Thread
 import datetime
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 class FPS:
     def __init__(self):
@@ -131,8 +131,8 @@ class Record:
         self.y = []
         self.x = []
 
-        plt.figure(2)
-        plt.ion()
+        #plt.figure(2)
+        #plt.ion()
 
 
     def putFrame(self, frame_number, boxes, score):
@@ -144,7 +144,7 @@ class Record:
                 print('------------Frame Number {} -------- Number of people {}----------'.format(frame_number, len(boxes)))
                 print(boxes)
             
-            self.plot(frame_number, len(boxes))
+            #self.plot(frame_number, len(boxes))
 
 
     def save(self, file_name='output'):        
@@ -159,7 +159,7 @@ class Record:
 
 
         #Finish plot
-        plt.show(block=True) 
+        #plt.show(block=True) 
 
     def plot(self, frame_number, people):
         
