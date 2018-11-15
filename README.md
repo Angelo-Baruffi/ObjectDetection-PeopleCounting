@@ -25,7 +25,7 @@ https://github.com/Cartucho/mAP
 <img src="filter_ppn.png">
 
 ### Suggestion to calculate mAP and test the models
-I used the MOT challange dataset to get a video with the groud truth data. [Link to dataset](https://motchallenge.net/)
+I used the MOT challange dataset to get a video with the ground truth data. [Link to dataset](https://motchallenge.net/)
 
 I used this [video](https://motchallenge.net/vis/PETS09-S2L1)
 
