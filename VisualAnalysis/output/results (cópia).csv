@@ -1,0 +1,40 @@
+,model_name,mAP,true_positive,false_positive,found,fps,error,perc_error
+0,faster_rcnn_inception_v2_coco,"80,34%",4015,855,4870,"0,99","0,59","10,02%"
+1,yolov3,"78,62%",4017,777,4794,"0,9","0,36","6,75%"
+2,ssd_mobilenet_v1_coco,"53,56%",2847,622,3469,"12,19","1,6","26,89%"
+3,ssd_mobilenet_v2_coco,"61,20%",3240,574,3814,"9,07","1,16","19,27%"
+4,ssd_inception_v2_coco,"64,76%",3318,567,3885,"5,69","1,14","19,18%"
+5,ssdlite_mobilenet_v2_coco,"60,26%",3236,725,3961,"12,41","1,04","17,39%"
+6,"ssd_mobilenet_v1_0,75_depth_coco","62,57%",3494,2418,5912,"16,25","1,81","33,72%"
+7,ssd_mobilenet_docker,"56,19%",2996,656,3652,"10,66","1,34","22,12%"
+8,ssd_mobilenet_v1_ppn_coco,"55,95%",3128,1263,4391,"13,26",1,"17,33%"
+9,yolov3_tiny,"0,38%",297,4866,5163,"7,14","0,98","18,80%"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+\hline,\hline faster_rcnn_inception_v2_coco,"\hline faster_rcnn_inception_v2_coco & 80,34%","\hline faster_rcnn_inception_v2_coco & 80,34% & 4015","\hline faster_rcnn_inception_v2_coco & 80,34% & 4015 & 855","\hline faster_rcnn_inception_v2_coco & 80,34% & 4015 & 855 & 4870","\hline faster_rcnn_inception_v2_coco & 80,34% & 4015 & 855 & 4870 & 0,99","\hline faster_rcnn_inception_v2_coco & 80,34% & 4015 & 855 & 4870 & 0,99 & 0,59","\hline faster_rcnn_inception_v2_coco & 80,34% & 4015 & 855 & 4870 & 0,99 & 0,59 & 10,02%"
+\hline,\hline yolov3,"\hline yolov3 & 78,62%","\hline yolov3 & 78,62% & 4017","\hline yolov3 & 78,62% & 4017 & 777","\hline yolov3 & 78,62% & 4017 & 777 & 4794","\hline yolov3 & 78,62% & 4017 & 777 & 4794 & 0,9","\hline yolov3 & 78,62% & 4017 & 777 & 4794 & 0,9 & 0,36","\hline yolov3 & 78,62% & 4017 & 777 & 4794 & 0,9 & 0,36 & 6,75%"
+\hline,\hline ssd_mobilenet_v1_coco,"\hline ssd_mobilenet_v1_coco & 53,56%","\hline ssd_mobilenet_v1_coco & 53,56% & 2847","\hline ssd_mobilenet_v1_coco & 53,56% & 2847 & 622","\hline ssd_mobilenet_v1_coco & 53,56% & 2847 & 622 & 3469","\hline ssd_mobilenet_v1_coco & 53,56% & 2847 & 622 & 3469 & 12,19","\hline ssd_mobilenet_v1_coco & 53,56% & 2847 & 622 & 3469 & 12,19 & 1,6","\hline ssd_mobilenet_v1_coco & 53,56% & 2847 & 622 & 3469 & 12,19 & 1,6 & 26,89%"
+\hline,\hline ssd_mobilenet_v2_coco,"\hline ssd_mobilenet_v2_coco & 61,20%","\hline ssd_mobilenet_v2_coco & 61,20% & 3240","\hline ssd_mobilenet_v2_coco & 61,20% & 3240 & 574","\hline ssd_mobilenet_v2_coco & 61,20% & 3240 & 574 & 3814","\hline ssd_mobilenet_v2_coco & 61,20% & 3240 & 574 & 3814 & 9,07","\hline ssd_mobilenet_v2_coco & 61,20% & 3240 & 574 & 3814 & 9,07 & 1,16","\hline ssd_mobilenet_v2_coco & 61,20% & 3240 & 574 & 3814 & 9,07 & 1,16 & 19,27%"
+\hline,\hline ssd_inception_v2_coco,"\hline ssd_inception_v2_coco & 64,76%","\hline ssd_inception_v2_coco & 64,76% & 3318","\hline ssd_inception_v2_coco & 64,76% & 3318 & 567","\hline ssd_inception_v2_coco & 64,76% & 3318 & 567 & 3885","\hline ssd_inception_v2_coco & 64,76% & 3318 & 567 & 3885 & 5,69","\hline ssd_inception_v2_coco & 64,76% & 3318 & 567 & 3885 & 5,69 & 1,14","\hline ssd_inception_v2_coco & 64,76% & 3318 & 567 & 3885 & 5,69 & 1,14 & 19,18%"
+\hline,\hline ssdlite_mobilenet_v2_coco,"\hline ssdlite_mobilenet_v2_coco & 60,26%","\hline ssdlite_mobilenet_v2_coco & 60,26% & 3236","\hline ssdlite_mobilenet_v2_coco & 60,26% & 3236 & 725","\hline ssdlite_mobilenet_v2_coco & 60,26% & 3236 & 725 & 3961","\hline ssdlite_mobilenet_v2_coco & 60,26% & 3236 & 725 & 3961 & 12,41","\hline ssdlite_mobilenet_v2_coco & 60,26% & 3236 & 725 & 3961 & 12,41 & 1,04","\hline ssdlite_mobilenet_v2_coco & 60,26% & 3236 & 725 & 3961 & 12,41 & 1,04 & 17,39%"
+\hline,"\hline ssd_mobilenet_v1_0,75_depth_coco","\hline ssd_mobilenet_v1_0,75_depth_coco & 62,57%","\hline ssd_mobilenet_v1_0,75_depth_coco & 62,57% & 3494","\hline ssd_mobilenet_v1_0,75_depth_coco & 62,57% & 3494 & 2418","\hline ssd_mobilenet_v1_0,75_depth_coco & 62,57% & 3494 & 2418 & 5912","\hline ssd_mobilenet_v1_0,75_depth_coco & 62,57% & 3494 & 2418 & 5912 & 16,25","\hline ssd_mobilenet_v1_0,75_depth_coco & 62,57% & 3494 & 2418 & 5912 & 16,25 & 1,81","\hline ssd_mobilenet_v1_0,75_depth_coco & 62,57% & 3494 & 2418 & 5912 & 16,25 & 1,81 & 33,72%"
+\hline,\hline ssd_mobilenet_docker,"\hline ssd_mobilenet_docker & 56,19%","\hline ssd_mobilenet_docker & 56,19% & 2996","\hline ssd_mobilenet_docker & 56,19% & 2996 & 656","\hline ssd_mobilenet_docker & 56,19% & 2996 & 656 & 3652","\hline ssd_mobilenet_docker & 56,19% & 2996 & 656 & 3652 & 10,66","\hline ssd_mobilenet_docker & 56,19% & 2996 & 656 & 3652 & 10,66 & 1,34","\hline ssd_mobilenet_docker & 56,19% & 2996 & 656 & 3652 & 10,66 & 1,34 & 22,12%"
+\hline,\hline ssd_mobilenet_v1_ppn_coco,"\hline ssd_mobilenet_v1_ppn_coco & 55,95%","\hline ssd_mobilenet_v1_ppn_coco & 55,95% & 3128","\hline ssd_mobilenet_v1_ppn_coco & 55,95% & 3128 & 1263","\hline ssd_mobilenet_v1_ppn_coco & 55,95% & 3128 & 1263 & 4391","\hline ssd_mobilenet_v1_ppn_coco & 55,95% & 3128 & 1263 & 4391 & 13,26","\hline ssd_mobilenet_v1_ppn_coco & 55,95% & 3128 & 1263 & 4391 & 13,26 & 1","\hline ssd_mobilenet_v1_ppn_coco & 55,95% & 3128 & 1263 & 4391 & 13,26 & 1 & 17,33%"
+\hline,\hline yolov3_tiny,"\hline yolov3_tiny & 0,38%","\hline yolov3_tiny & 0,38% & 297","\hline yolov3_tiny & 0,38% & 297 & 4866","\hline yolov3_tiny & 0,38% & 297 & 4866 & 5163","\hline yolov3_tiny & 0,38% & 297 & 4866 & 5163 & 7,14","\hline yolov3_tiny & 0,38% & 297 & 4866 & 5163 & 7,14 & 0,98","\hline yolov3_tiny & 0,38% & 297 & 4866 & 5163 & 7,14 & 0,98 & 18,80%"
+,,,,,,,,
+,,,,,,,,
+,,,,"\hline faster\_rcnn\_inception\_v2\_coco & 80,34\% & 4015 & 855 & 4870 & 0,99 & 0,59 & 10,02\%",,,,
+,,,,"\hline yolov3 & 78,62% & 4017 & 777 & 4794 & 0,9 & 0,36 & 6,75%",,,,
+,,,,"\hline ssd\_mobilenet\_v1\_coco & 53,56\% & 2847 & 622 & 3469 & 12,19 & 1,6 & 26,89\%",,,,
+,,,,"\hline ssd\_mobilenet\_v2\_coco & 61,20\% & 3240 & 574 & 3814 & 9,07 & 1,16 & 19,27\%",,,,
+,,,,"\hline ssd\_inception\_v2\_coco & 64,76\% & 3318 & 567 & 3885 & 5,69 & 1,14 & 19,18\%",,,,
+,#NOME?,,,"\hline ssdlite\_mobilenet\_v2\_coco & 60,26\% & 3236 & 725 & 3961 & 12,41 & 1,04 & 17,39\%",,,,
+,,,,"\hline ssd\_mobilenet\_v1\_0,75\_depth\_coco & 62,57\% & 3494 & 2418 & 5912 & 16,25 & 1,81 & 33,72\%",,,,
+,,,,"\hline ssd\_mobilenet\_docker & 56,19\% & 2996 & 656 & 3652 & 10,66 & 1,34 & 22,12\%",,,,
+,,,,"\hline ssd\_mobilenet\_v1\_ppn\_coco & 55,95\% & 3128 & 1263 & 4391 & 13,26 & 1 & 17,33\%",,,,
+,,,,"\hline yolov3\_tiny & 0,38\% & 297 & 4866 & 5163 & 7,14 & 0,98 & 18,80\%",,,,
